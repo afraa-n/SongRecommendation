@@ -1058,3 +1058,45 @@
 2023-12-10 09:31:07 | INFO     | __main__:<module>:114 - Spotify track found for GPT recommendation.
 2023-12-10 09:31:07 | INFO     | __main__:<module>:114 - Spotify track found for GPT recommendation.
 2023-12-10 09:31:07 | INFO     | __main__:<module>:114 - Spotify track found for GPT recommendation.
+2023-12-10 09:59:10 | INFO     | __main__:<module>:42 - Streamlit app started.
+2023-12-10 09:59:11 | INFO     | __main__:<module>:42 - Streamlit app started.
+2023-12-10 09:59:11 | INFO     | __main__:<module>:42 - Streamlit app started.
+2023-12-10 09:59:11 | INFO     | __main__:<module>:82 - Spotify access token retrieved.
+2023-12-10 09:59:11 | INFO     | __main__:<module>:82 - Spotify access token retrieved.
+2023-12-10 09:59:11 | INFO     | __main__:<module>:82 - Spotify access token retrieved.
+2023-12-10 09:59:11 | INFO     | __main__:<module>:82 - Spotify access token retrieved.
+2023-12-10 09:59:11 | INFO     | __main__:<module>:91 - Option chosen: Tell us how you feel.
+2023-12-10 09:59:11 | INFO     | __main__:<module>:91 - Option chosen: Tell us how you feel.
+2023-12-10 09:59:16 | INFO     | __main__:<module>:42 - Streamlit app started.
+2023-12-10 09:59:16 | INFO     | __main__:<module>:42 - Streamlit app started.
+2023-12-10 09:59:16 | INFO     | __main__:<module>:42 - Streamlit app started.
+2023-12-10 09:59:16 | INFO     | __main__:<module>:82 - Spotify access token retrieved.
+2023-12-10 09:59:16 | INFO     | __main__:<module>:82 - Spotify access token retrieved.
+2023-12-10 09:59:16 | INFO     | __main__:<module>:82 - Spotify access token retrieved.
+2023-12-10 09:59:16 | INFO     | __main__:<module>:91 - Option chosen: Tell us how you feel.
+2023-12-10 09:59:16 | INFO     | __main__:<module>:91 - Option chosen: Tell us how you feel.
+2023-12-10 09:59:16 | INFO     | __main__:<module>:91 - Option chosen: Tell us how you feel.
+2023-12-10 09:59:17 | INFO     | __main__:<module>:42 - Streamlit app started.
+2023-12-10 09:59:17 | INFO     | __main__:<module>:42 - Streamlit app started.
+2023-12-10 09:59:17 | INFO     | __main__:<module>:42 - Streamlit app started.
+2023-12-10 09:59:17 | INFO     | __main__:<module>:42 - Streamlit app started.
+2023-12-10 09:59:17 | INFO     | __main__:<module>:82 - Spotify access token retrieved.
+2023-12-10 09:59:17 | INFO     | __main__:<module>:82 - Spotify access token retrieved.
+2023-12-10 09:59:17 | INFO     | __main__:<module>:82 - Spotify access token retrieved.
+2023-12-10 09:59:17 | INFO     | __main__:<module>:82 - Spotify access token retrieved.
+2023-12-10 09:59:17 | INFO     | __main__:<module>:91 - Option chosen: Tell us how you feel.
+2023-12-10 09:59:17 | INFO     | __main__:<module>:91 - Option chosen: Tell us how you feel.
+2023-12-10 09:59:17 | INFO     | __main__:<module>:91 - Option chosen: Tell us how you feel.
+2023-12-10 09:59:17 | INFO     | __main__:<module>:91 - Option chosen: Tell us how you feel.
+2023-12-10 09:59:17 | INFO     | __main__:<module>:99 - User entered mood: so happy!
+2023-12-10 09:59:17 | INFO     | __main__:<module>:99 - User entered mood: so happy!
+2023-12-10 09:59:17 | INFO     | __main__:<module>:99 - User entered mood: so happy!
+2023-12-10 09:59:17 | INFO     | __main__:<module>:99 - User entered mood: so happy!
+2023-12-10 09:59:20 | INFO     | __main__:<module>:106 - Song recommendation successfully parsed.
+2023-12-10 09:59:20 | INFO     | __main__:<module>:106 - Song recommendation successfully parsed.
+2023-12-10 09:59:20 | INFO     | __main__:<module>:106 - Song recommendation successfully parsed.
+2023-12-10 09:59:20 | INFO     | __main__:<module>:106 - Song recommendation successfully parsed.
+2023-12-10 09:59:20 | INFO     | __main__:<module>:112 - Spotify track found for GPT recommendation.
+2023-12-10 09:59:20 | INFO     | __main__:<module>:112 - Spotify track found for GPT recommendation.
+2023-12-10 09:59:20 | INFO     | __main__:<module>:112 - Spotify track found for GPT recommendation.
+2023-12-10 09:59:20 | INFO     | __main__:<module>:112 - Spotify track found for GPT recommendation.

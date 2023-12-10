@@ -1,5 +1,6 @@
 # App Script
 
+import os
 import streamlit as st
 from dotenv import load_dotenv
 from spotipy import Spotify
@@ -9,8 +10,8 @@ from libraries._02_gpt_prompt import get_resp_gpt
 from libraries._03_spotify_functionality import get_token, search_for_track
 from libraries._04_query import query_song
 from libraries._05_parser import parse_song
-from config import SPOTIPY_CLIENT_ID, SPOTIPY_CLIENT_SECRET
-from config import SPOTIPY_REDIRECT_URI, OPENAI_API_KEY
+# from config import SPOTIPY_CLIENT_ID, SPOTIPY_CLIENT_SECRET
+# from config import SPOTIPY_REDIRECT_URI, OPENAI_API_KEY
 
 # Configure Loguru logger
 log_format = (
@@ -21,14 +22,11 @@ log_format = (
 )
 logger.add("logging.md", format=log_format, level="INFO")
 
-# Load environment variables from .env file
-load_dotenv()
-
 # Load Spotify API credentials from environment variables
-SPOTIPY_CLIENT_ID = SPOTIPY_CLIENT_ID
-SPOTIPY_CLIENT_SECRET = SPOTIPY_CLIENT_SECRET
-SPOTIPY_REDIRECT_URI = SPOTIPY_REDIRECT_URI
-OPENAI_API_KEY = OPENAI_API_KEY
+SPOTIPY_CLIENT_ID = os.getenv("SPOTIPY_CLIENT_ID")
+SPOTIPY_CLIENT_SECRET = os.getenv("SPOTIPY_CLIENT_SECRET")
+SPOTIPY_REDIRECT_URI = os.getenv("SPOTIPY_REDIRECT_URI")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 # Authenticate with Spotify API
 sp = Spotify(

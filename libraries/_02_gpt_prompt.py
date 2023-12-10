@@ -10,10 +10,9 @@ mood as input, formulates a prompt, and retrieves a GPT-3 generated response wit
 import openai
 import os
 from dotenv import load_dotenv
-from config import OPENAI_API_KEY
 
 load_dotenv()
-api_key = OPENAI_API_KEY
+api_key = os.getenv("OPENAI_API_KEY")
 
 
 def get_resp_gpt(user_input, api_key):

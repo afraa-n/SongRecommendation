@@ -9,12 +9,11 @@ from dotenv import load_dotenv
 import json
 import os
 from requests import get, post, exceptions
-from config import SPOTIPY_CLIENT_ID, SPOTIPY_CLIENT_SECRET
 
 # load variables stored in .env file
 load_dotenv()
-client_id = SPOTIPY_CLIENT_ID
-client_secret = SPOTIPY_CLIENT_SECRET
+client_id = os.getenv("SPOTIPY_CLIENT_ID")
+client_secret = os.getenv("SPOTIPY_CLIENT_SECRET")
 
 
 def get_token():
