@@ -2281,3 +2281,210 @@
 2023-12-10 11:49:49 | INFO     | __main__:<module>:154 - Spotify track found for mood.
 2023-12-10 11:49:49 | INFO     | __main__:<module>:154 - Spotify track found for mood.
 2023-12-10 11:49:49 | INFO     | __main__:<module>:154 - Spotify track found for mood.
+2023-12-10 11:53:19 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:53:19 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:53:19 | INFO     | __main__:<module>:90 - Option chosen: Tell us how you feel.
+2023-12-10 11:53:25 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:53:25 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:53:25 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:53:25 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:53:25 | INFO     | __main__:<module>:90 - Option chosen: Tell us how you feel.
+2023-12-10 11:53:25 | INFO     | __main__:<module>:90 - Option chosen: Tell us how you feel.
+2023-12-10 11:53:26 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:53:26 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:53:26 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:53:26 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:53:26 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:53:26 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:53:26 | INFO     | __main__:<module>:90 - Option chosen: Tell us how you feel.
+2023-12-10 11:53:26 | INFO     | __main__:<module>:90 - Option chosen: Tell us how you feel.
+2023-12-10 11:53:26 | INFO     | __main__:<module>:90 - Option chosen: Tell us how you feel.
+2023-12-10 11:53:26 | INFO     | __main__:<module>:98 - User entered mood: so sad right now
+2023-12-10 11:53:26 | INFO     | __main__:<module>:98 - User entered mood: so sad right now
+2023-12-10 11:53:26 | INFO     | __main__:<module>:98 - User entered mood: so sad right now
+2023-12-10 11:53:29 | INFO     | __main__:<module>:105 - Song recommendation successfully parsed.
+2023-12-10 11:53:29 | INFO     | __main__:<module>:105 - Song recommendation successfully parsed.
+2023-12-10 11:53:29 | INFO     | __main__:<module>:105 - Song recommendation successfully parsed.
+2023-12-10 11:53:30 | INFO     | __main__:<module>:111 - Spotify track found for GPT recommendation.
+2023-12-10 11:53:30 | INFO     | __main__:<module>:111 - Spotify track found for GPT recommendation.
+2023-12-10 11:53:30 | INFO     | __main__:<module>:111 - Spotify track found for GPT recommendation.
+2023-12-10 11:53:32 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:53:32 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:53:32 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:53:32 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:53:32 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:53:32 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:53:32 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:53:32 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:53:32 | INFO     | __main__:<module>:138 - Option chosen: Choose your mood.
+2023-12-10 11:53:32 | INFO     | __main__:<module>:138 - Option chosen: Choose your mood.
+2023-12-10 11:53:32 | INFO     | __main__:<module>:138 - Option chosen: Choose your mood.
+2023-12-10 11:53:32 | INFO     | __main__:<module>:138 - Option chosen: Choose your mood.
+2023-12-10 11:55:28 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:55:28 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:55:28 | INFO     | __main__:<module>:90 - Option chosen: Tell us how you feel.
+2023-12-10 11:55:33 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:55:33 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:55:33 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:55:33 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:55:33 | INFO     | __main__:<module>:90 - Option chosen: Tell us how you feel.
+2023-12-10 11:55:33 | INFO     | __main__:<module>:90 - Option chosen: Tell us how you feel.
+2023-12-10 11:55:34 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:55:34 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:55:34 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:55:35 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:55:35 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:55:35 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:55:35 | INFO     | __main__:<module>:90 - Option chosen: Tell us how you feel.
+2023-12-10 11:55:35 | INFO     | __main__:<module>:90 - Option chosen: Tell us how you feel.
+2023-12-10 11:55:35 | INFO     | __main__:<module>:90 - Option chosen: Tell us how you feel.
+2023-12-10 11:55:35 | INFO     | __main__:<module>:98 - User entered mood: so happy today!
+2023-12-10 11:55:35 | INFO     | __main__:<module>:98 - User entered mood: so happy today!
+2023-12-10 11:55:35 | INFO     | __main__:<module>:98 - User entered mood: so happy today!
+2023-12-10 11:55:37 | INFO     | __main__:<module>:105 - Song recommendation successfully parsed.
+2023-12-10 11:55:37 | INFO     | __main__:<module>:105 - Song recommendation successfully parsed.
+2023-12-10 11:55:37 | INFO     | __main__:<module>:105 - Song recommendation successfully parsed.
+2023-12-10 11:55:38 | INFO     | __main__:<module>:111 - Spotify track found for GPT recommendation.
+2023-12-10 11:55:38 | INFO     | __main__:<module>:111 - Spotify track found for GPT recommendation.
+2023-12-10 11:55:38 | INFO     | __main__:<module>:111 - Spotify track found for GPT recommendation.
+2023-12-10 11:55:42 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:55:42 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:55:42 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:55:42 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:55:42 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:55:42 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:55:42 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:55:42 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:55:42 | INFO     | __main__:<module>:138 - Option chosen: Choose your mood.
+2023-12-10 11:55:42 | INFO     | __main__:<module>:138 - Option chosen: Choose your mood.
+2023-12-10 11:55:42 | INFO     | __main__:<module>:138 - Option chosen: Choose your mood.
+2023-12-10 11:55:42 | INFO     | __main__:<module>:138 - Option chosen: Choose your mood.
+2023-12-10 11:55:48 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:55:48 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:55:48 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:55:48 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:55:48 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:55:48 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:55:48 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:55:48 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:55:48 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:55:48 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:55:48 | INFO     | __main__:<module>:138 - Option chosen: Choose your mood.
+2023-12-10 11:55:48 | INFO     | __main__:<module>:138 - Option chosen: Choose your mood.
+2023-12-10 11:55:48 | INFO     | __main__:<module>:138 - Option chosen: Choose your mood.
+2023-12-10 11:55:48 | INFO     | __main__:<module>:138 - Option chosen: Choose your mood.
+2023-12-10 11:55:48 | INFO     | __main__:<module>:138 - Option chosen: Choose your mood.
+2023-12-10 11:55:49 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:55:49 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:55:49 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:55:49 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:55:49 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:55:49 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:55:49 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:55:49 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:55:49 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:55:49 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:55:49 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:55:49 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:55:49 | INFO     | __main__:<module>:138 - Option chosen: Choose your mood.
+2023-12-10 11:55:49 | INFO     | __main__:<module>:138 - Option chosen: Choose your mood.
+2023-12-10 11:55:49 | INFO     | __main__:<module>:138 - Option chosen: Choose your mood.
+2023-12-10 11:55:49 | INFO     | __main__:<module>:138 - Option chosen: Choose your mood.
+2023-12-10 11:55:49 | INFO     | __main__:<module>:138 - Option chosen: Choose your mood.
+2023-12-10 11:55:49 | INFO     | __main__:<module>:138 - Option chosen: Choose your mood.
+2023-12-10 11:55:49 | INFO     | __main__:<module>:148 - Getting song preview for selected mood: Happy.
+2023-12-10 11:55:49 | INFO     | __main__:<module>:148 - Getting song preview for selected mood: Happy.
+2023-12-10 11:55:49 | INFO     | __main__:<module>:148 - Getting song preview for selected mood: Happy.
+2023-12-10 11:55:49 | INFO     | __main__:<module>:148 - Getting song preview for selected mood: Happy.
+2023-12-10 11:55:49 | INFO     | __main__:<module>:148 - Getting song preview for selected mood: Happy.
+2023-12-10 11:55:49 | INFO     | __main__:<module>:148 - Getting song preview for selected mood: Happy.
+2023-12-10 11:55:49 | INFO     | __main__:<module>:154 - Spotify track found for mood.
+2023-12-10 11:55:49 | INFO     | __main__:<module>:154 - Spotify track found for mood.
+2023-12-10 11:55:49 | INFO     | __main__:<module>:154 - Spotify track found for mood.
+2023-12-10 11:55:49 | INFO     | __main__:<module>:154 - Spotify track found for mood.
+2023-12-10 11:55:49 | INFO     | __main__:<module>:154 - Spotify track found for mood.
+2023-12-10 11:55:49 | INFO     | __main__:<module>:154 - Spotify track found for mood.
+2023-12-10 11:56:46 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:56:47 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:56:47 | INFO     | __main__:<module>:90 - Option chosen: Tell us how you feel.
+2023-12-10 11:56:53 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:56:53 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:56:53 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:56:53 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:56:53 | INFO     | __main__:<module>:90 - Option chosen: Tell us how you feel.
+2023-12-10 11:56:53 | INFO     | __main__:<module>:90 - Option chosen: Tell us how you feel.
+2023-12-10 11:56:54 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:56:54 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:56:54 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:56:54 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:56:54 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:56:54 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:56:54 | INFO     | __main__:<module>:90 - Option chosen: Tell us how you feel.
+2023-12-10 11:56:54 | INFO     | __main__:<module>:90 - Option chosen: Tell us how you feel.
+2023-12-10 11:56:54 | INFO     | __main__:<module>:90 - Option chosen: Tell us how you feel.
+2023-12-10 11:56:54 | INFO     | __main__:<module>:98 - User entered mood: so happy right now!
+2023-12-10 11:56:54 | INFO     | __main__:<module>:98 - User entered mood: so happy right now!
+2023-12-10 11:56:54 | INFO     | __main__:<module>:98 - User entered mood: so happy right now!
+2023-12-10 11:56:57 | INFO     | __main__:<module>:105 - Song recommendation successfully parsed.
+2023-12-10 11:56:57 | INFO     | __main__:<module>:105 - Song recommendation successfully parsed.
+2023-12-10 11:56:57 | INFO     | __main__:<module>:105 - Song recommendation successfully parsed.
+2023-12-10 11:56:57 | INFO     | __main__:<module>:111 - Spotify track found for GPT recommendation.
+2023-12-10 11:56:57 | INFO     | __main__:<module>:111 - Spotify track found for GPT recommendation.
+2023-12-10 11:56:57 | INFO     | __main__:<module>:111 - Spotify track found for GPT recommendation.
+2023-12-10 11:56:59 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:56:59 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:56:59 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:56:59 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:56:59 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:56:59 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:56:59 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:56:59 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:56:59 | INFO     | __main__:<module>:138 - Option chosen: Choose your mood.
+2023-12-10 11:56:59 | INFO     | __main__:<module>:138 - Option chosen: Choose your mood.
+2023-12-10 11:56:59 | INFO     | __main__:<module>:138 - Option chosen: Choose your mood.
+2023-12-10 11:56:59 | INFO     | __main__:<module>:138 - Option chosen: Choose your mood.
+2023-12-10 11:57:02 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:57:02 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:57:02 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:57:02 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:57:02 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:57:02 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:57:02 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:57:02 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:57:02 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:57:02 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:57:02 | INFO     | __main__:<module>:138 - Option chosen: Choose your mood.
+2023-12-10 11:57:02 | INFO     | __main__:<module>:138 - Option chosen: Choose your mood.
+2023-12-10 11:57:02 | INFO     | __main__:<module>:138 - Option chosen: Choose your mood.
+2023-12-10 11:57:02 | INFO     | __main__:<module>:138 - Option chosen: Choose your mood.
+2023-12-10 11:57:02 | INFO     | __main__:<module>:138 - Option chosen: Choose your mood.
+2023-12-10 11:57:03 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:57:03 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:57:03 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:57:03 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:57:03 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:57:03 | INFO     | __main__:<module>:41 - Streamlit app started.
+2023-12-10 11:57:03 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:57:03 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:57:03 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:57:03 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:57:03 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:57:03 | INFO     | __main__:<module>:81 - Spotify access token retrieved.
+2023-12-10 11:57:03 | INFO     | __main__:<module>:138 - Option chosen: Choose your mood.
+2023-12-10 11:57:03 | INFO     | __main__:<module>:138 - Option chosen: Choose your mood.
+2023-12-10 11:57:03 | INFO     | __main__:<module>:138 - Option chosen: Choose your mood.
+2023-12-10 11:57:03 | INFO     | __main__:<module>:138 - Option chosen: Choose your mood.
+2023-12-10 11:57:03 | INFO     | __main__:<module>:138 - Option chosen: Choose your mood.
+2023-12-10 11:57:03 | INFO     | __main__:<module>:138 - Option chosen: Choose your mood.
+2023-12-10 11:57:03 | INFO     | __main__:<module>:148 - Getting song preview for selected mood: Anxious.
+2023-12-10 11:57:03 | INFO     | __main__:<module>:148 - Getting song preview for selected mood: Anxious.
+2023-12-10 11:57:03 | INFO     | __main__:<module>:148 - Getting song preview for selected mood: Anxious.
+2023-12-10 11:57:03 | INFO     | __main__:<module>:148 - Getting song preview for selected mood: Anxious.
+2023-12-10 11:57:03 | INFO     | __main__:<module>:148 - Getting song preview for selected mood: Anxious.
+2023-12-10 11:57:03 | INFO     | __main__:<module>:148 - Getting song preview for selected mood: Anxious.
+2023-12-10 11:57:03 | INFO     | __main__:<module>:154 - Spotify track found for mood.
+2023-12-10 11:57:03 | INFO     | __main__:<module>:154 - Spotify track found for mood.
+2023-12-10 11:57:03 | INFO     | __main__:<module>:154 - Spotify track found for mood.
+2023-12-10 11:57:03 | INFO     | __main__:<module>:154 - Spotify track found for mood.
+2023-12-10 11:57:03 | INFO     | __main__:<module>:154 - Spotify track found for mood.
+2023-12-10 11:57:03 | INFO     | __main__:<module>:154 - Spotify track found for mood.
