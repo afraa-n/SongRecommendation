@@ -5,11 +5,8 @@ This script provides functions for recording audio from a microphone, loading th
 and transcribing the speech using a pre-trained Whisper ASR (Automatic Speech Recognition) model.
 """
 import os
-import pyaudio
-import whisper
-from scipy.io.wavfile import read
+import speech_recognition as sr
 import numpy as np
-import wave
 
 def recordingVoice(save_path="data/output.wav"):
     """
@@ -24,46 +21,55 @@ def recordingVoice(save_path="data/output.wav"):
     # Create the "data" folder if it doesn't exist
     os.makedirs(os.path.dirname(save_path), exist_ok=True)
 
+    # Create a recognizer instance
+    recognizer = sr.Recognizer()
+
     # Parameters
-    FORMAT = pyaudio.paInt16
-    CHANNELS = 1
     RATE = 44100
     CHUNK = 1024
     RECORD_SECONDS = 10
 
-    # Initialize pyaudio
-    audio = pyaudio.PyAudio()
+    with sr.Microphone(sample_rate=RATE, chunk_size=CHUNK) as source:
+        print("Recording...")
 
-    # Open stream
-    stream = audio.open(
-        format=FORMAT, channels=CHANNELS, rate=RATE, input=True, frames_per_buffer=CHUNK
-    )
+        # Adjust for ambient noise before recording
+        recognizer.adjust_for_ambient_noise(source)
 
-    print("Recording...")
-
-    frames = []
-
-    # Record for 10 seconds
-    for i in range(0, int(RATE / CHUNK * RECORD_SECONDS)):
-        data = stream.read(CHUNK)
-        frames.append(data)
+        # Record for 10 seconds
+        audio_data = recognizer.record(source, duration=RECORD_SECONDS)
 
     print("Finished recording.")
 
-    # Stop and close the stream
-    stream.stop_stream()
-    stream.close()
-    audio.terminate()
-
     # Save the recorded audio to a WAV file
-    with wave.open(save_path, "wb") as wf:
-        wf.setnchannels(CHANNELS)
-        wf.setsampwidth(audio.get_sample_size(FORMAT))
-        wf.setframerate(RATE)
-        wf.writeframes(b"".join(frames))
+    with open(save_path, "wb") as wf:
+        wf.write(audio_data.get_wav_data())
 
-    return b"".join(frames)  # Return the audio data as bytes
+    return audio_data.get_wav_data()  # Return the audio data as bytes
 
+
+def transcribe_audio(audio_data):
+    """
+    Transcribes audio data using a speech recognition service.
+
+    Args:
+    audio_data (bytes): The audio data to transcribe.
+
+    Returns:
+    str: The transcribed text.
+    """
+    recognizer = sr.Recognizer()
+
+    # Load the audio using the new function
+    audio = load_audio(audio_data)
+
+    try:
+        # Transcribe the audio using Google's speech recognition service
+        result = recognizer.recognize_google(audio)
+        return result
+    except sr.UnknownValueError:
+        return "Speech Recognition could not understand the audio"
+    except sr.RequestError as e:
+        return f"Error with the speech recognition service; {e}"
 
 
 def load_audio(audio_data):
@@ -77,25 +83,3 @@ def load_audio(audio_data):
     numpy.ndarray: The audio data as a NumPy array.
     """
     return np.frombuffer(audio_data, dtype=np.int16).astype(np.float32) / 32767.0
-
-
-def transcribe_audio(audio_data):
-    """
-    Transcribes audio data using a pre-trained Whisper ASR model.
-
-    Args:
-    audio_data (bytes): The audio data to transcribe.
-
-    Returns:
-    str: The transcribed text.
-    """
-    # Load the model
-    model = whisper.load_model("base")
-
-    # Load the audio using the new function
-    audio = load_audio(audio_data)
-
-    # Run the transcription process
-    result = model.transcribe(audio)
-
-    return result["text"]

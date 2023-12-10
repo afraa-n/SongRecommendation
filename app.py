@@ -1,20 +1,10 @@
-"""
-App Script
+# App Script
 
-This script defines our Streamlit app, 'JAMB-O', a mood-based music recommendation app. 
-It allows users to either record their voice to generate a song recommendation using 
-GPT-3 or choose a mood from a dropdown to get a song recommendation based on their 
-mood. The script integrates with the Spotify API for music playback and uses various 
-modules for speech-to-text, natural language processing, and database queries.
-
-Authors: Bob Zhang, Jiwon Shin, Yun-Chung Liu (Murphy), Afraa Noureen 
-"""
 import streamlit as st
 from dotenv import load_dotenv
 from spotipy import Spotify
 from spotipy.oauth2 import SpotifyOAuth
 from loguru import logger
-from libraries._01_speech_to_text import recordingVoice, transcribe_audio
 from libraries._02_gpt_prompt import get_resp_gpt
 from libraries._03_spotify_functionality import get_token, search_for_track
 from libraries._04_query import query_song
@@ -98,20 +88,21 @@ option_choice = st.radio(
     "Take your pick:", ["Tell us how you feel!", "Choose your mood!"]
 )
 
+# Replace the voice recording section with a text input box
 if option_choice == "Tell us how you feel!":
     logger.info("Option chosen: Tell us how you feel.")
     st.subheader("Tell us how you feel today, and we'll give you a song! 🎵")
-    if st.button(
-        "🎙️ Record Voice", key="record-voice", help="Click to record your voice"
-    ):
-        logger.info("Recording voice.")
-        with st.spinner("Recording..."):
-            audio_data = recordingVoice()
-
-        with st.spinner("Awesome! Finding your mood song 😉"):
-            transcription = transcribe_audio(audio_data)
-            song_recommendation = get_resp_gpt(transcription, OPENAI_API_KEY)
-            song_artist_gpt = parse_song(song_recommendation)
+    
+    # Add a text input box for the user to enter their mood
+    user_mood_input = st.text_input("Enter your mood here:")
+    
+    # Check if the user entered a mood and clicked the button
+    if user_mood_input and st.button("Get Song Recommendation", key="get-song-text"):
+        logger.info(f"User entered mood: {user_mood_input}")
+        
+        # Call the GPT prompt function with the user's text input
+        song_recommendation = get_resp_gpt(user_mood_input, OPENAI_API_KEY)
+        song_artist_gpt = parse_song(song_recommendation)
 
         if song_artist_gpt[0] and song_artist_gpt[1]:
             logger.info("Song recommendation successfully parsed.")

@@ -1,8 +1,6 @@
 install:
-	sudo apt-get update
-	sudo apt-get install -y python3-dev portaudio19-dev
 	pip install --upgrade pip
-	pip install --no-cache-dir -r requirements.txt
+	pip install -r requirements.txt
 
 test:
 	python -m pytest -vv --cov=main --cov=mylib test_*.py
