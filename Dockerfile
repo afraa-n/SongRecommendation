@@ -1,5 +1,5 @@
 # Use the official Streamlit base image
-FROM streamlit/streamlit:latest
+FROM streamlit/streamlit:0.90.0
 
 # Set the working directory inside the container
 WORKDIR /app
