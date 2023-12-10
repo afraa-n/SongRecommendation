@@ -1,13 +1,20 @@
-# Start with a Python build image
-FROM python:3.8 as builder
-WORKDIR /app
-COPY requirements.txt .
-# Install Python packages
-RUN pip install -r requirements.txt
-EXPOSE 5000
+# Use an official Python runtime as a parent image
+FROM python:3.9.7-slim
 
-# Use a distroless image
-FROM gcr.io/distroless/python3
-COPY --from=builder /app /app
+# Set the working directory in the container
 WORKDIR /app
-CMD ["app.py"]
+
+# Copy the current directory contents into the container at /app
+COPY . /app
+
+# Install any needed packages specified in requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Make port 8502 available to the world outside this container
+EXPOSE 8502
+
+# Define environment variable
+ENV NAME World
+
+# Run app.py when the container launches
+CMD ["streamlit", "run", "app.py", "--server.port", "8502"]
