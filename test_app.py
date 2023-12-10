@@ -18,13 +18,18 @@ class TestYourApp(unittest.TestCase):
 
             # Check if the subprocess exit code is 0 (success)
             self.assertEqual(result.returncode, 0, 
-                             f"Subprocess terminated with an error. Exit Code: {result.returncode}")
+                             f"Subprocess terminated with an error. "
+                             f"Exit Code: {result.returncode}")
 
             print("Streamlit app executed successfully!")
 
         except subprocess.CalledProcessError as e:
             # If the subprocess exits with a non-zero code, handle the error
-            self.fail(f"Subprocess terminated with an error. Exit Code: {e.returncode}\nOutput:\n{e.output}")
+            self.fail(
+                f"Subprocess terminated with an error. Exit Code: {e.returncode}\n"
+                f"Output:\n{e.output}"
+            )
+
         except subprocess.TimeoutExpired:
             # If the subprocess times out, consider it a success unless encountered an error
             print("Mood-Based Song Recommendation App worked successfully!")
